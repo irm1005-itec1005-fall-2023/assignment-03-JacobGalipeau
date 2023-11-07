@@ -35,7 +35,8 @@
 // Data storage - Initialize the array of To Do items
 //
 // NOTE:
-//
+let todolist =[];
+let unique =1;
 // - You must use the following object literal structure when creating new todo items
 // - The ID (id) of each todo item must be unique (you can use the length of the array as the ID or generate a random number)
 //
