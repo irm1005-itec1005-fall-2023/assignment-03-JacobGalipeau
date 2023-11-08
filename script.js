@@ -45,8 +45,8 @@
 //   completed: false,
 // }
 let todoItems = [];
-let todolist = [];
-let unique = 1;
+/*let todolist = [];
+let unique = 1;*/
 
 // Initialise an empty array with the variable name todoItems
 
