@@ -44,11 +44,12 @@
 //   text: "This is a todo item",
 //   completed: false,
 // }
+
+
+// Initialise an empty array with the variable name todoItems
 let todoItems = [];
 /*let todolist = [];
 let unique = 1;*/
-
-// Initialise an empty array with the variable name todoItems
 
 // Function to add a todo to the list
 // It should accept a string as a parameter (text of the todo item)
@@ -59,7 +60,7 @@ let unique = 1;*/
 function addToDoItem(text) {
   // Implement the logic to add a task here
 
-  console.log("NOT YET IMPLEMENTED"); // Remove this line when you start working on the function
+  // Remove this line when you start working on the function
 }
 
 // Function to remove a todo to the list
