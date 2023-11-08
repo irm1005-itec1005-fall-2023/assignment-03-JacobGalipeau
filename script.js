@@ -58,6 +58,9 @@ let unique = 1;
 // It's really important that you have a unique ID for each todo item that you push onto the array
 // the function does not need to return anything
 function addToDoItem(text) {
+  console.log('ToDo text: ${text}')
+
+  addToDoItem()
   // Implement the logic to add a task here
 
   // Remove this line when you start working on the function
