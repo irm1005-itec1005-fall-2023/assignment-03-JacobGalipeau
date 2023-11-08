@@ -48,8 +48,8 @@
 
 // Initialise an empty array with the variable name todoItems
 let todoItems = [];
-/*let todolist = [];
-let unique = 1;*/
+let todolist = [];
+let unique = 1;
 
 // Function to add a todo to the list
 // It should accept a string as a parameter (text of the todo item)
