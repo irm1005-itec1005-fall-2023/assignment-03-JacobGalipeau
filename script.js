@@ -145,9 +145,9 @@ function clearCompletedTasks() {
 // You can write your own tests here if you would like to test
 // your code before using the automated tests
 // For example, you could run:
- addToDoItem("Test ToDo"); 
- addToDoItem("Test ToDo");
- addToDoItem("Test ToDo");// This should add a new todo item to the array
+// addToDoItem("Test ToDo"); 
+// addToDoItem("Test ToDo");
+ //addToDoItem("Test ToDo");// This should add a new todo item to the array
 console.log(todoItems); // This should show the todo item you added
 //  removeToDoItem(0); // This should remove the todo item with ID 0 from the array
  markToDoItemAsCompleted(1); // This should mark the todo item with ID 0 as completed
