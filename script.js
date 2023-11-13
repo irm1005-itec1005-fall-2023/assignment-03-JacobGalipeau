@@ -64,13 +64,10 @@ const todoItem = {
   id: unique,
   text:text,
    completed: false}
-
    todoItems.push(todoItem);
-
+console.log("todoItem added")
   // Implement the logic to add a task here
-
   // Remove this line when you start working on the function
-
 }
 
 // Function to remove a todo to the list
@@ -123,8 +120,17 @@ function markToDoItemAsCompleted(todoId) {
 // the function does not need to return anything, though you can return
 // true or false depending on whether the item was successfully deleted
 function deleteToDoItem(todoId) {
+  if (typeof todoId !=='number'){
+    console.log("do not type in a number, only type in letters");
+    return false;
+  }
   // Implement the logic to remove a task here
-removeToDoItem(todoId)
+  for (let i = 0; i < todoItems.length; i++) {
+    if (todoItems[i].completed === true) {
+      todoItems.splice(i,1)
+    }
+  }
+console.log("todoitem removed");
  // console.log("NOT YET IMPLEMENTED"); // Remove this line when you start working on the function
 }
 
